@@ -1,0 +1,143 @@
+object MainForm: TMainForm
+  Left = 640
+  Height = 367
+  Top = 316
+  Width = 679
+  Caption = 'Font Viewer'
+  ClientHeight = 367
+  ClientWidth = 679
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '1.5'
+  object DrawList: TDrawList
+    Left = 360
+    Height = 256
+    Top = 32
+    Width = 248
+    BorderStyle = bsSingle
+    Color = clWhite
+    DesktopFont = True
+    HotTrack = False
+    ItemHeight = 28
+    MultiSelect = False
+    ParentColor = False
+    TabOrder = 0
+    OnDrawItem = DrawListDrawItem
+    OnSelectItem = DrawListSelectItem
+  end
+  object PreviewLabel: TLabel
+    Left = 8
+    Height = 19
+    Top = 8
+    Width = 62
+    Caption = 'Preview:'
+    ParentColor = False
+  end
+  object FontsLabel: TLabel
+    Left = 360
+    Height = 19
+    Top = 8
+    Width = 110
+    Caption = 'Available fonts:'
+    ParentColor = False
+    ParentFont = False
+  end
+  object SizingPanel: TSizingPanel
+    Left = 8
+    Height = 256
+    Top = 32
+    Width = 344
+    Borders = []
+    Shadows = []
+    BorderStyle = bsSingle
+    ClientHeight = 254
+    ClientWidth = 342
+    Color = clBtnFace
+    ParentColor = False
+    TabOrder = 1
+    UseDockManager = False
+    object RenderBox: TRenderBox
+      Left = 0
+      Height = 254
+      Top = 0
+      Width = 342
+      OnRender = RenderBoxRender
+      Align = alClient
+    end
+  end
+  object BoldButton: TThinButton
+    Left = 304
+    Height = 24
+    Top = 3
+    Width = 24
+    Caption = 'BoldButton'
+    Down = False
+    Images = ImageStrip
+    ImageIndex = 0
+    OnClick = FontButtonClick
+  end
+  object ItalicButton: TThinButton
+    Left = 328
+    Height = 24
+    Top = 3
+    Width = 24
+    Caption = 'ItalicButton'
+    Down = False
+    Images = ImageStrip
+    ImageIndex = 1
+    OnClick = FontButtonClick
+  end
+  object BitmapButton: TThinButton
+    Left = 272
+    Height = 24
+    Top = 3
+    Width = 24
+    Caption = 'BitmapButton'
+    Down = False
+    Images = ImageStrip
+    ImageIndex = 0
+    Visible = False
+    OnClick = BitmapButtonClick
+  end
+  object Timer: TTimer
+    Enabled = False
+    Interval = 500
+    OnTimer = TimerTimer
+    left = 56
+    top = 296
+  end
+  object ImageStrip: TImageStrip
+    left = 256
+    top = 304
+    Data = {
+      89504E470D0A1A0A0000000D494844520000003000000010080600000050AEFC
+      B10000000473424954080808087C08648800000326494441544889A5D63D885D
+      451407F0DF7D2F59134DC4E70742F003236AE147244802A61131855A48C0D24A
+      10B5D4450BB1120441228A856227C1C642051B511B8B60218A269AA028318BA0
+      1BCDDB5513753FDEBB167326F7EEE4DE5DC13F5CCECC9D33E76BCE393315CE60
+      8A05D41A8C308CF1127EC6497C843783BF2AF60C42D655F80E5B5BEB1516436E
+      89524E89417CAB257F856770119EC4966098E0659C0E8577625F6CAAF023EEC3
+      F11E43B68513F7E2257C818763ED4887811F860D67627E418C1F9102B70FCFB7
+      9CF827F49FC308E35050E36F5C136B9B823EDD5AABA593E843DEF354F0BE56FC
+      2F31C26C4BFF2C2EC54CAC6FC5667C80B77061DE386809AE5A02072D65991EC2
+      59CD29EDC68E1E83723ADC11F4AB425F89051C6ECD8F4A019DC47C25BE23F803
+      7F950EAC3A1F7541A7F165F4E56D158A2BDC1CFFBE0E3AE9E0EF42DF498D1535
+      D41791BAA52C1B7D00DBB11CF38FA5FC2C914F72076E90A2F57D4B6E1FA6EBAC
+      E57DF39AB442BFA743DC1F068EA4227A48726A1EEFE3D99EBDD9811B43D931FC
+      F21F8C6C63A6E7FFA2540BE7D0E5401DFF5F69F164A34E4BC61F94F276E8FCB4
+      C8BCB7043D1AB48BB7D49BB1AD90953155644D570A55529AEC925ADB95B80B9F
+      E2323C8A1FF07A8782B621B707FDB2C798124BADBDDB7B782E0EBE751DC8469C
+      952A7F8C4FA49E7E428AE48AE4C8C18EBD39CAB706CD27B05EFE93527321C63B
+      836E6A7DB007735D9B479A9BB8962E8A6B636D285D2CF06AAC2F071D17727294
+      2FC7EF5277CB72FA82D55E7B27E49ED0B4E8FC1AD88B5F715B7B635F11B3B68D
+      E6A82E168696473D08DEEBA5E3FE163F15F2BA3094F2FB095C27A5DF71BC8753
+      523BDE8DC7A5BB604674C3F2B2CAA87AD66E2A8C99EF3064A229E06331DFA880
+      57829E0C43F7E26E5C1DB61CC283524BCE35BAC6B8556B2334D55C6E79BC1F0F
+      58DB09DE280CC96D7257D0CF836E54C007340FB6A9947E87635C4B01D82FBD02
+      56E3FFBBD98159A96D6D6909DC8CC7F01B2E918AE71E4D3ED67801CF1586EC0C
+      E17B62FEA7F4A61A6B1E6A5D78316CC98FC56107CFA4B53EC90E5452C16EF49C
+      5E96AA7F0E9FE16D7CA38958C6295C51C85992526FAE83FF7FE35FD23CD7D812
+      1D70510000000049454E44AE426082
+    }
+  end
+end
