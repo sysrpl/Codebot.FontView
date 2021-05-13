@@ -3,6 +3,7 @@ program fontview;
 {$mode delphi}
 
 uses
+  Codebot.System,
   {$IFDEF UNIX}{$IFDEF UseCThreads}
   cthreads,
   {$ENDIF}{$ENDIF}

@@ -16,6 +16,7 @@ type
   TMainForm = class(TForm)
     BoldButton: TThinButton;
     BitmapButton: TThinButton;
+    FontEdit: TEdit;
     ItalicButton: TThinButton;
     ImageStrip: TImageStrip;
     DrawList: TDrawList;
@@ -30,6 +31,7 @@ type
     procedure DrawListSelectItem(Sender: TObject);
     procedure FontButtonClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
+    procedure FormShow(Sender: TObject);
     procedure RenderBoxRender(Sender: TObject; Surface: ISurface);
     procedure TimerTimer(Sender: TObject);
   private
@@ -76,8 +78,16 @@ begin
   ItalicButton.Anchors := [akTop, akRight];
   FontsLabel.Anchors := [akTop, akRight];
   DrawList.Anchors := [akTop, akRight, akBottom];
+  FontEdit.Anchors := [akTop, akRight];
+  ImageStrip.Colorize(clWindowText);
+  DrawListSelectItem(nil);
 end;
 
+procedure TMainForm.FormShow(Sender: TObject);
+begin
+  DrawList.SetFocus;
+  OnShow := nil;
+end;
 
 procedure TMainForm.RenderSamples(Surface: ISurface; Rect: TRectI);
 const
@@ -138,6 +148,10 @@ begin
     Surface.FillRect(FBackground, Rect);
   Rect.Inflate(-4, 0);
   FFontSelect.Name := FFontNames[Index];
+  if dsSelected in State then
+    FFontSelect.Color := clWindowText
+  else
+    FFontSelect.Color := clBlack;
   Surface.TextOut(NewFont(FFontSelect), FFontNames[Index], Rect, drLeft);
 end;
 
@@ -157,6 +171,8 @@ end;
 
 procedure TMainForm.DrawListSelectItem(Sender: TObject);
 begin
+  if DrawList.ItemIndex > -1 then
+    FontEdit.Text := FFontNames[DrawList.ItemIndex];
   Timer.Enabled := False;
   Timer.Enabled := True;
 end;
