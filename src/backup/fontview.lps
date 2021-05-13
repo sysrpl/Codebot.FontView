@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units Count="23">
+      <Unit0>
+        <Filename Value="fontview.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <CursorPos Y="17"/>
+        <UsageCount Value="53"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Main"/>
+        <TopLine Value="129"/>
+        <CursorPos X="44" Y="87"/>
+        <UsageCount Value="53"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../../../Libraries/Cross.Codebot/source/codebot.graphics.types.pas"/>
+        <UnitName Value="Codebot.Graphics.Types"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="20"/>
+        <UsageCount Value="16"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../../../Libraries/Cross.Codebot/source/codebot.graphics.pas"/>
+        <UnitName Value="Codebot.Graphics"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="183"/>
+        <CursorPos X="26" Y="215"/>
+        <UsageCount Value="6"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../../../../Base/lazarus/lcl/controls.pp"/>
+        <UnitName Value="Controls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1451"/>
+        <CursorPos X="14" Y="1472"/>
+        <UsageCount Value="6"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../../../../Base/lazarus/lcl/include/control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1304"/>
+        <CursorPos X="3" Y="1306"/>
+        <UsageCount Value="6"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../../../../Base/lazarus/lcl/graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="540"/>
+        <CursorPos X="3" Y="501"/>
+        <UsageCount Value="6"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../../../Libraries/Cross.Codebot/source/codebot.controls.extras.pas"/>
+        <UnitName Value="Codebot.Controls.Extras"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="92"/>
+        <CursorPos X="3" Y="113"/>
+        <UsageCount Value="6"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="../../../Libraries/Cross.Codebot/source/codebot.design.surfacebitmapeditor.pas"/>
+        <UnitName Value="Codebot.Design.SurfaceBitmapEditor"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4"/>
+        <CursorPos X="34" Y="32"/>
+        <UsageCount Value="6"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="../../../Libraries/Cross.Codebot/source/codebot.controls.containers.pas"/>
+        <UnitName Value="Codebot.Controls.Containers"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="406"/>
+        <CursorPos Y="437"/>
+        <UsageCount Value="6"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="../../../Libraries/Cross.Codebot/source/codebot.graphics.linux.surfacecairo.pas"/>
+        <UnitName Value="Codebot.Graphics.Linux.SurfaceCairo"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1451"/>
+        <CursorPos Y="1606"/>
+        <UsageCount Value="17"/>
+        <Bookmarks Count="2">
+          <Item0 X="34" Y="1077" ID="1"/>
+          <Item1 X="8" Y="1671" ID="2"/>
+        </Bookmarks>
+      </Unit10>
+      <Unit11>
+        <Filename Value="../../../../Base/fpc/packages/gtk2/src/pango/pango-types.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="14"/>
+        <CursorPos X="3" Y="35"/>
+        <UsageCount Value="16"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="../../../../Base/fpc/packages/gtk2/src/pango/pango-layout.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="45"/>
+        <CursorPos X="92" Y="66"/>
+        <UsageCount Value="16"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="../../../../Base/fpc/packages/gtk2/src/pango/pango.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="49"/>
+        <CursorPos X="3" Y="69"/>
+        <UsageCount Value="6"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="../../../../Base/fpc/packages/gtk2/src/pango/pango-font.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="6"/>
+        <CursorPos X="4" Y="26"/>
+        <UsageCount Value="8"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="../../../../Base/fpc/packages/cairo/src/cairo.pp"/>
+        <UnitName Value="Cairo"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="602"/>
+        <CursorPos X="11" Y="622"/>
+        <UsageCount Value="8"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="../../../../Libraries/cross.codebot/source/codebot_controls/codebot.controls.extras.pas"/>
+        <UnitName Value="Codebot.Controls.Extras"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="83"/>
+        <CursorPos X="13" Y="113"/>
+        <UsageCount Value="18"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="../../../../Libraries/cross.codebot/source/codebot_controls/codebot.design.registration.pas"/>
+        <UnitName Value="Codebot.Design.Registration"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="29"/>
+        <CursorPos X="3" Y="57"/>
+        <UsageCount Value="18"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="../../../../lazarus/components/ideintf/componenteditors.pas"/>
+        <UnitName Value="ComponentEditors"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="22"/>
+        <UsageCount Value="8"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="../../../../Libraries/cross.codebot/source/codebot_controls/codebot.design.editors.pas"/>
+        <UnitName Value="Codebot.Design.Editors"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="59"/>
+        <CursorPos X="21" Y="74"/>
+        <UsageCount Value="18"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="../../../../lazarus/lcl/controls.pp"/>
+        <UnitName Value="Controls"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="8"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="../../../../Libraries/cross.codebot/source/codebot/codebot.graphics.pas"/>
+        <UnitName Value="Codebot.Graphics"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="2418"/>
+        <CursorPos Y="2418"/>
+        <UsageCount Value="11"/>
+        <Bookmarks Count="2">
+          <Item0 X="5" Y="177" ID="1"/>
+          <Item1 X="22" Y="940" ID="2"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="../../../../Libraries/cross.codebot/source/codebot/codebot.graphics.types.pas"/>
+        <UnitName Value="Codebot.Graphics.Types"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="263"/>
+        <CursorPos X="3" Y="280"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit22>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="main.pas"/>
+        <Caret Line="79" Column="30" TopLine="49"/>
+      </Position1>
+      <Position2>
+        <Filename Value="../../../../Libraries/cross.codebot/source/codebot/codebot.graphics.pas"/>
+        <Caret Line="176" Column="15" TopLine="159"/>
+      </Position2>
+      <Position3>
+        <Filename Value="../../../../Libraries/cross.codebot/source/codebot/codebot.graphics.pas"/>
+        <Caret Line="1181" Column="3" TopLine="1179"/>
+      </Position3>
+      <Position4>
+        <Filename Value="../../../../Libraries/cross.codebot/source/codebot/codebot.graphics.pas"/>
+        <Caret Line="114" Column="15" TopLine="97"/>
+      </Position4>
+      <Position5>
+        <Filename Value="../../../../Libraries/cross.codebot/source/codebot/codebot.graphics.pas"/>
+        <Caret Line="937" Column="18" TopLine="929"/>
+      </Position5>
+      <Position6>
+        <Filename Value="../../../../Libraries/cross.codebot/source/codebot/codebot.graphics.pas"/>
+        <Caret Line="940" Column="38" TopLine="929"/>
+      </Position6>
+      <Position7>
+        <Filename Value="../../../../Libraries/cross.codebot/source/codebot/codebot.graphics.pas"/>
+        <Caret Line="943" Column="13" TopLine="929"/>
+      </Position7>
+      <Position8>
+        <Filename Value="../../../../Libraries/cross.codebot/source/codebot/codebot.graphics.pas"/>
+        <Caret Line="945" Column="13" TopLine="929"/>
+      </Position8>
+      <Position9>
+        <Filename Value="main.pas"/>
+        <Caret Line="79" Column="3" TopLine="62"/>
+      </Position9>
+      <Position10>
+        <Filename Value="../../../../Libraries/cross.codebot/source/codebot/codebot.graphics.pas"/>
+        <Caret Line="176" Column="15" TopLine="159"/>
+      </Position10>
+      <Position11>
+        <Filename Value="../../../../Libraries/cross.codebot/source/codebot/codebot.graphics.pas"/>
+        <Caret Line="1181" TopLine="1164"/>
+      </Position11>
+      <Position12>
+        <Filename Value="../../../../Libraries/cross.codebot/source/codebot/codebot.graphics.pas"/>
+        <Caret Line="1191" Column="8" TopLine="1164"/>
+      </Position12>
+      <Position13>
+        <Filename Value="../../../../Libraries/cross.codebot/source/codebot/codebot.graphics.pas"/>
+        <Caret Line="1205" Column="18" TopLine="1175"/>
+      </Position13>
+      <Position14>
+        <Filename Value="main.pas"/>
+        <Caret Line="72" Column="38" TopLine="62"/>
+      </Position14>
+      <Position15>
+        <Filename Value="main.pas"/>
+        <Caret Line="73" Column="38" TopLine="63"/>
+      </Position15>
+      <Position16>
+        <Filename Value="main.pas"/>
+        <Caret Line="72" Column="38" TopLine="62"/>
+      </Position16>
+      <Position17>
+        <Filename Value="main.pas"/>
+        <Caret Line="80" Column="3" TopLine="54"/>
+      </Position17>
+      <Position18>
+        <Filename Value="main.pas"/>
+        <Caret Line="179" TopLine="125"/>
+      </Position18>
+      <Position19>
+        <Filename Value="main.pas"/>
+        <Caret Line="73" Column="47" TopLine="53"/>
+      </Position19>
+      <Position20>
+        <Filename Value="main.pas"/>
+        <Caret Line="164" Column="39" TopLine="148"/>
+      </Position20>
+      <Position21>
+        <Filename Value="main.pas"/>
+        <Caret Line="77" Column="37" TopLine="62"/>
+      </Position21>
+      <Position22>
+        <Filename Value="main.pas"/>
+        <Caret Line="87" Column="44" TopLine="129"/>
+      </Position22>
+      <Position23>
+        <Filename Value="../../../../Libraries/cross.codebot/source/codebot/codebot.graphics.pas"/>
+        <Caret Line="293" Column="15" TopLine="276"/>
+      </Position23>
+      <Position24>
+        <Filename Value="../../../../Libraries/cross.codebot/source/codebot/codebot.graphics.pas"/>
+        <Caret Line="2425" Column="3" TopLine="2418"/>
+      </Position24>
+      <Position25>
+        <Filename Value="../../../../Libraries/cross.codebot/source/codebot/codebot.graphics.pas"/>
+        <Caret Line="293" Column="16" TopLine="276"/>
+      </Position25>
+      <Position26>
+        <Filename Value="../../../../Libraries/cross.codebot/source/codebot/codebot.graphics.pas"/>
+        <Caret Line="2418" TopLine="2418"/>
+      </Position26>
+      <Position27>
+        <Filename Value="../../../../Libraries/cross.codebot/source/codebot/codebot.graphics.pas"/>
+        <Caret Line="294" Column="14" TopLine="277"/>
+      </Position27>
+      <Position28>
+        <Filename Value="../../../../Libraries/cross.codebot/source/codebot/codebot.graphics.pas"/>
+        <Caret Line="282" Column="14" TopLine="277"/>
+      </Position28>
+      <Position29>
+        <Filename Value="../../../../Libraries/cross.codebot/source/codebot/codebot.graphics.pas"/>
+        <Caret Line="2283" Column="22" TopLine="2269"/>
+      </Position29>
+      <Position30>
+        <Filename Value="../../../../Libraries/cross.codebot/source/codebot/codebot.graphics.pas"/>
+        <Caret Line="293" Column="104" TopLine="266"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
